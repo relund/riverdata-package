@@ -6,7 +6,7 @@
 \alias{riverdata-package}
 \title{riverdata: R package used by riverdata repo}
 \description{
-What the package does (one paragraph).
+Package for riverdata repo at Github.
 }
 \author{
 \strong{Maintainer}: Lars Relund Nielsen \email{lars@relund.dk} (\href{https://orcid.org/0000-0002-4802-3071}{ORCID})

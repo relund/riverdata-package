@@ -12,14 +12,16 @@
 #' @param club False if consider association. True if consider club.
 #'
 #' @return The data (tibble).
+#' @export
 #'
 #' @examples
-#' url <- "https://fangstjournalen.dtu.dk/fangst.nsf/xsp/app/v3/catches/assoc/A97F957DD48AEDD4C1258814003E71FE/1/"
+#' url <- str_c("https://fangstjournalen.dtu.dk/fangst.nsf/xsp/app/v3/",
+#'              "catches/assoc/A97F957DD48AEDD4C1258814003E71FE/1/")
 #' prefix <- "tmp/data_skjern"
 #' yr <- 2023
-#' writeCatch(url, prefix, yr, species = "Laks")
+#' write_catch(url, prefix, yr, species = "Laks")
 #'
-writeCatch <-
+write_catch <-
    function(url,
             prefix,
             yr,

@@ -15,6 +15,8 @@ Depends: R (>= 4.3.0),
     readr,
     purrr,
     tibble,
-    lubridate
+    lubridate,
+    ggplot2,
+    plotly
 Imports: 
     rlang
